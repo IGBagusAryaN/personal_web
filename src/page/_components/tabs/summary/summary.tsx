@@ -57,6 +57,7 @@ export const Summary = () => {
 
   return (
     <div className="w-full max-w-[920px] mx-auto">
+      
       <ScrollFadeIn>
         <Intro />
       </ScrollFadeIn>

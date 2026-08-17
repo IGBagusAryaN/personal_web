@@ -27,7 +27,7 @@ export const ProfilePicture = ({ hidden, isSmallScreen }: Props) => {
         transition={{ duration: 0.5, ease: "easeInOut" }}
       >
         <motion.img
-          src="/assets/jpg/profilepicture.jpg"
+          src="/assets/png/profilepicture.png"
           className="object-cover rounded-xl"
           initial={{ scale: 1, opacity: 1 }}
           animate={{ scale: hidden ? 0 : 1, opacity: hidden ? 0 : 1 }}
@@ -41,11 +41,11 @@ export const ProfilePicture = ({ hidden, isSmallScreen }: Props) => {
         }}
         transition={{ duration: 0.5, ease: "easeInOut" }}
       >
-        <div className="text-[20px] md:text-[32px] font-semibold">
-          Bagus Arya
+        <div className="text-[20px] md:text-[28px] font-semibold">
+          I Gede Bagus Arya Negara
         </div>
         <p className="hidden md:block text-[16px] text-[#969191]">
-          Front-end Developer
+          Software Engineer, Web Master, Database Spesialist
         </p>
       </motion.div>
     </motion.div>

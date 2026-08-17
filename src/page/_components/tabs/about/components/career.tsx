@@ -68,7 +68,7 @@ export const Career = () => {
             <p>PT.Sinar Metrindo Perkasa</p>
             <p className="text-[14px] text-[#969191]">IT Staff • Software Developer</p>
             <p className="text-[14px] text-[#969191]">
-              Now • Full-time • Onsite
+              Present • Full-time • Onsite
             </p>
           </div>
         </div>

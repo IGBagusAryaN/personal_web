@@ -4,7 +4,7 @@ export const Intro = () => {
   return (
     <div>
       <div className="text-[28px]">
-        Hello, I'm Arya
+        Helloo, i'm arya
         <motion.span
           animate={{ rotate: [0, 20, -10, 20, 0] }}
           transition={{ duration: 1.5, repeat: Infinity, repeatDelay: 1 }}
@@ -14,30 +14,28 @@ export const Intro = () => {
         </motion.span>
       </div>
       <div className="flex text-xs gap-4 text-[#969191] mt-2 sm:block md:hidden">
-        <div>• South Tangerang, Indonesia 🇮🇩</div>
-        <div>• Front-end Developer</div>
+        <div>• West Jakarta, Indonesia 🇮🇩</div>
+        <div>• Software Engineer, Web Master, Database Spesialist</div>
       </div>
       <div className="text-[#969191] mt-3 ">
-        <p className="text-justify">
-          I'm I Gede Bagus Arya Negara, a Frontend Web Developer passionate
-          about building clean, interactive, and user-friendly web applications.
-          I specialize in JavaScript and TypeScript, leveraging modern frontend
-          technologies to create seamless user experiences.
-        </p>
-        <p className="mt-3 text-justify">
-          Currently, I am honing my skills through an intensive bootcamp at
-          DumbWays while actively working on various projects—both individually
-          and collaboratively. Through these experiences, I've gained hands-on
-          expertise in developing dynamic web applications, improving UI/UX, and
-          optimizing performance.
-        </p>
-        <p className="mt-3 text-justify">
-          Beyond frontend development, I am also expanding my knowledge in
-          full-stack development to gain a deeper understanding of how web
-          applications function as a whole. My goal is to continuously improve
-          and stay updated with the latest technologies, ensuring that every
-          project I build meets high standards of quality and usability.
-        </p>
+        <div className="text-[#969191] mt-3">
+          <p className="mt-3 text-justify">
+            As a Software Engineer and Webmaster at PT Sinar Metrindo Perkasa, I
+            specialize in JavaScript and TypeScript, leveraging modern
+            technologies to create seamless user experiences and ensure robust
+            site architecture. In my daily operations, I work extensively with
+            SQL Server and MySQL to manage, query, and optimize data, bridging
+            dynamic frontend interfaces with reliable backend systems.
+          </p>
+          <p className="mt-3 text-justify">
+            Through my professional experience, I bring hands-on expertise in
+            web development, UI/UX enhancement, and performance optimization. My
+            dual role allows me to apply deep full-stack knowledge to oversee
+            how web applications function as a complete ecosystem. My goal is to
+            continuously improve, ensuring that every project I architect and
+            maintain meets the highest standards of quality and usability.
+          </p>
+        </div>
       </div>
     </div>
   );
